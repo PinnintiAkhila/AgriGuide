@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+             body{
+                 background-color:#99ff99;
+            }
+                .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#003333;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 150px;
+  padding: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+float:right;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+            .button2{
+                display: inline-block;
+  border-radius: 4px;
+  background-color:#990000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 150px;
+  padding:5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float:left;
+            }
+        img{
+   border-radius:50%;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+               <img src="plant_1.PNG" width="5%" ></img>
+            
+         
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <font size="25" style="color:blue">Welcome to Agri-Guide</font>
+            <a href="newlogout.jsp" target="block"><button class="button" style="vertical-align:middle"><span>Logout</span></button></a>
+            <a href="home.html" target="block"><button class="button" style="vertical-align:middle"><span>home</span></button></a>
+   </div>
+    </body>
+</html>

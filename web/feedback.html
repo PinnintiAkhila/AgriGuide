@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .submit_button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    display: block;
+}
+
+        </style>
+    </head>
+   <body onLoad="document.registration.name.focus();">       
+    <center>
+        <br>
+        <h1>Write Your Feedback Here</h1>
+        <br>
+        <div>
+    <form  name="registration" method="POST" pattern="[0-9]" action="Feedback" >
+        <br>
+       
+        <br>
+        <font size="5">Comment/suggestions:</font><br><br>
+    <textarea   name="message" rows="7" cols="30" required pattern='[a-zA-z]'></textarea><br /><br><br>
+   <button type="submit" class="submit_button">send</button>
+    
+</form></center>
+</div>
+
+
+</body>
+</html>

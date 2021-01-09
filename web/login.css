@@ -1,0 +1,49 @@
+marquee{
+      font-size:60px;
+	  font-family:verdana;
+	  color:crimson;
+}
+.l2{
+	  color:blue;
+	  background-color:lightyellow;
+	  font-size:30px;
+}
+.l1{
+	  color:blue;
+	  font-family:aharoni;
+	  font-size:50px;
+}
+.button{
+       background-color:white;
+	   border:none;
+	   color:blue;
+	   font-size:30px;
+	   text-decoration:none;
+	   display:inline-block;
+	   margin:14px 9px;
+	   cursor:pointer;
+}
+.button1{
+       background-color:blue;
+	   border:2px;
+	   border-radius:12px;
+	   font-size:30px;
+	   color:white;
+}
+.button1:hover{
+       background-color:darkgreen;
+	   color:white;
+}
+.button2{
+       background-color:blue;
+	   border:2px;
+	   border-radius:12px;
+	   font-size:30px;
+	   color:white;
+}
+.button2:hover{
+       background-color:red;
+	   color:white;
+}.aspNetHidden {
+
+}
